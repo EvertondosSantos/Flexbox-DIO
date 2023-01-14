@@ -1,0 +1,49 @@
+*{
+    max-width: 992px;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box; /* Cada elemento ficara dentro de seu espaço */
+    color:	#000000;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #122A57;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    
+}
+#cabecalho h1{
+    color: white;
+}
+
+#listaCabecalho{
+    display:flex;
+}
+#listaCabecalho ul{
+    width: 100%;
+    max-width: 260px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+#listaCabecalho ul a{
+    color: white;
+}
+
+#servicos{
+    background-color: #122A57;
+}

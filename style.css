@@ -16,34 +16,3 @@ a{
     text-decoration: none;
 }
 
-header{
-    background-color: #122A57;
-    display: flex;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-    justify-content: center;
-    
-}
-#cabecalho h1{
-    color: white;
-}
-
-#listaCabecalho{
-    display:flex;
-}
-#listaCabecalho ul{
-    width: 100%;
-    max-width: 260px;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-around; */
-}
-
-#listaCabecalho ul a{
-    color: white;
-}
-
-#servicos{
-    background-color: #122A57;
-}

@@ -16,3 +16,30 @@ a{
     text-decoration: none;
 }
 
+.container{
+    display: flex;
+}
+
+
+header{
+    max-width: 100%;
+    align-items: center;
+    background-color: #122A57;
+    height: 80px;
+    justify-content: flex-start;
+    margin-bottom: 80px;
+}
+header h1{
+    color: white;
+    font-size: 23px;
+}
+header ul li a{
+    color: white;
+    font-size: 14px;
+}
+.listaCabecalho{
+    width: 300px;
+    justify-content: space-between;   
+}
+
+

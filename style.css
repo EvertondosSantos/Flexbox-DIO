@@ -7,9 +7,6 @@
     font-family: 'Oswald', sans-serif;
 }
 
-body{
-    border: 1px solid #122A57;
-}
 
 ul{
     list-style: none;
@@ -111,7 +108,9 @@ header ul li a{
     flex-direction: column;
     padding: 30px;
 }
+
 .servicosPai h2{
+    width: 992px;
     color: white;
     margin-bottom: 50px;
 }
@@ -141,3 +140,44 @@ header ul li a{
 }
 
 /* PLANOS */
+
+.planosPai{
+    margin: 30px 30px 100px 30px;
+    flex-wrap: wrap;
+
+}
+.planosPai h2{
+    width: 992px;
+    margin: 50px 50px 50px 50px;
+
+}
+.planos{
+    padding: 20px;
+    border: 5px solid #122A57;
+    text-align: center;
+}
+.planos h3{
+    border-bottom: 2px solid #122A57;
+}
+.planos ul{
+    text-align: start;
+    list-style: square;
+    margin: 30px 0px 70px 0px;
+    font-size: 13px;
+}
+.planos a{
+    color: white;
+    background-color: #122A57;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.rodape{
+    background-color: #122A57;
+    height: 70px;
+}
+.rodape p{
+    color: white;
+    font-size: 13px;
+}
